@@ -1,0 +1,139 @@
+body {
+	font-family: sans-serif;
+	font-weight: 400;
+	background-image: linear-gradient(#B2D3FF, #F8FBFF);
+	background-repeat: no-repeat;
+}
+button {
+	outline: none;
+}
+/*Header Start*/
+header {
+
+}
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #fff;
+}
+.logo {
+	width: 20%;
+	float: left;
+}
+.logo img {
+	width: 100%;
+}
+.menu {
+	width: 75%;
+	float: right;
+	margin-top: 10px;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 500;
+	color: #405B70;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 20px;
+}
+/*Header End*/
+/* Banner Section Strat */
+.banner {
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+
+.banner-content {
+	width: 24%;
+	background-color: rgba(0, 0, 0, .4);
+	margin: 90px 0 350px;
+	padding: 25px;
+}
+.banner-content h1 {
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+.banner-content p {
+    font-size: 18px;
+    color: #fff;
+    margin: 15px 0px;	
+}
+.banner-content button {
+    background-color: rgba(0, 0, 0, .4);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.banner-content button:hover {
+    background-color: rgba(0, 0, 0);
+}
+/* Banner Section End */
+/*Card section Strat*/
+/*.card {
+	width: 80%;
+	margin: 0 auto;
+}*/
+.items {
+	width: 80%;
+	margin: 0 auto;
+	padding:3em 0;
+}
+.card-item {
+	display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 0 10px;
+    margin: 0 8px;
+}
+.card-item img {
+	width: 100%;
+}
+.card-item h2 {
+    margin: 15px 0 5px;
+    color: #999;
+}
+.card-item p {
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.card-item button {
+    background-color: #3A5371;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+/*Card section End*/
+/*Footer Section Start*/
+.footer-content {
+	text-align: center;
+    padding: 35px 0 20px;
+}
+.text-content {}
+.text-content h2 {
+	font-size: 15px;
+    color: #999;
+}
+.text-content h4 {
+	font-size: 13px;
+    color: #999;
+}
+.social-icons {}
+/*Footer Section End*/
